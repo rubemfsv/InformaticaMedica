@@ -8,7 +8,7 @@ Professor: Marcelo Oliveira Costa</br>
 
 
 
-# 2016.1 - Fundamentos em Informática Médica e Telemedicina AB2
+# Fundamentos em Informática Médica e Telemedicina AB2
 
 # Identificação
 
