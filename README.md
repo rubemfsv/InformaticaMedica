@@ -15,8 +15,8 @@ Professor: Marcelo Oliveira Costa</br>
 * Página do repositório do trabalho ([link GitHub](https://github.com/rubemfsv/InformaticaMedica))
 
 * Discente 1
-	* Nome:  Eduarda Chagas
-	* Matrícula: 15112025
+	* Nome: Eduarda Tatiane Caetano Chagas
+	* Matrícula: 15111882
   
 * Discente 2
 	* Nome: Rubem Ferreira Santos Vasconcelos 
