@@ -29,12 +29,11 @@ Professor: Marcelo Oliveira Costa</br>
 
 ### Contextualização
 
-Cada computador executa diversas tarefas “ao mesmo tempo”, isso quer dizer que ele executa diversos processos, e esses são, de fato, as tarefas que estão em execução quase que simultaneamente - algumas delas ocorrem em plano de fundo, sem que o usuário note. Como abstração feita para o próprio usuário, é impossível perceber que os processos não estão sendo executados sincronicamente por serem realizados eu um período de tempo infinitamente curto.
+Dentre as doenças de maior grau de complicação e gravidade, o câncer é um problema de saúde que acomete o mundo todo, principalmente em países que estão em fase de desenvolvimento. Um fato preocupante é a quantidade de mortes e novos casos por ano, 70% e 14 milhões, consecutivamente. No Brasil, apesar de não ser a doença que mais mat - ficando atrás de doenças como as cerebrovasculares -, o câncer atinge 15% das mortes no país e 600 mil novos casos anuais.
 
-Frequentemente, quando um processo está em execução, ele pode consumir bastante memória volátil do sistema, este é o caso dos processos que são abstraídos para o usuário (como o simples ato de abrir um arquivo, que faz executar, em plano de fundo diversos processos até ser realizada a tarefa), que estão rodando por “trás” e consumindo a memória RAM. Quando muitas tarefas estão ocorrendo “simultaneamente”, há uma queda no desempenho da unidade central de processamento (UCP), e ocorre um retardo durante a execução dos programas - além de desperdício de memória. 
+Em escala mundial, o câncer de pulmão é o que possui maior incidência, cerca de 1.8 milhão, e é o que mais mata. Cerca de 48% dos estudos indicam que a maior parte das pessoas que desenvolvem a doença são fumantes. Dentre a minoria não-fumante, as principais causas são genéticas ou ambientais, que é o caso da poluição e o tabagismo passivo).  No Brasil, foram estimados 17.330 novos cancêr de pulmão para o ano de 2016.
 
-Para realização efetiva do trabalho prático, fez-se necessária a duplicação de um processo utilizando-se como recurso a função fork() (linha 22 do código-fonte), a mesma só pode ser executada em sistemas UNIX (ex.: o sistema operacional Linux). A fim de obter um maior e mais completo entendimento de como a função ocorre, utiliza-se o nome "pai" para o principal processo, que se multiplica em dois, criando um novo processo idêntico ao processo pai (mudando apenas seu número de identificação) denominado "filho".
-
+Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediatamente investigados via radiografia e tomografia computadorizada, nessa ultima deve haver noções precisas do tamanho, localização e níveis de invasão do tumor.
 
 
 ### Objetivo
