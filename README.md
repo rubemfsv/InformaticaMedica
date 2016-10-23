@@ -38,33 +38,31 @@ Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediata
 
 ### Ferramentas utilizadas
 
+*Eclise Mars(https://eclipse.org/mars/)
 
+*Python 2.7 (https://www.python.org/)
 
+*OpenCv(http://opencv.org/)
 
-### Utilização Intensa da UCP e Memória
+##Funções implementadas
 
-#### UCP
+*Análise da imagem
+	*Reconhecimento do módulo
+	*Extração dos níveis de cinza da imagem
 
-![UCP graph](http://imageshack.com/a/img910/6858/jkgdyQ.png)
+*Matriz de concorrência
+	*Angular Second Moment
+	*Sum Mean
+	*Maximal Probability
 
-* Código do gráfico da UCP que foi realizado em Julia (dados obtidos em um dos testes):
+*Histograma de intensidade
+	*Mean
+	*Energy
+	*Entropy
+	*Kurtosis
 
-```julia
-plot(x=1:10, y=[0.28, 0.55, 0.83, 10.16, 10.39, 10.66, 10.94, 20.21, 20.47, 20.73],
-Geom.point, Geom.line,
-Guide.xlabel("Tempo em segundos"), Guide.ylabel("Uso da UCP (em porcentagem)"),
-Guide.title("Processo da UCP"))
-```
+### Considerações finais
 
-#### Memória
+*Ao realizar o cálculo das devidas funções não foram levados em consideração os pixeis de cor preta
 
-![memory graph](http://imageshack.com/a/img911/5458/Y4Pps1.png)
-
-* Código do gráfico da memória que foi realizado em Julia (dados obtidos em um dos testes):
-
-```julia
-plot(x=1:10, y=[532480, 532480*2, 532480*3, 532480*4, 532480*5, 532480*6, 532480*7, 532480*8, 532480*9, 532480*10],
-Geom.point, Geom.line,
-Guide.xlabel("Tempo em segundos"), Guide.ylabel("Uso da memória (em Kilobytes)"),
-Guide.title("Processo da Memória"))
-```
+*Para o cálculo da matriz de concorrência normalizada foi levado em consideração apenas o número de níveis de cinza existentes na imagem
