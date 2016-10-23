@@ -63,6 +63,6 @@ Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediata
 
 ### Considerações finais
 
-*Ao realizar o cálculo das devidas funções não foram levados em consideração os pixeis de cor preta
+* Ao realizar o cálculo das devidas funções não foram levados em consideração os pixeis de cor preta
 
-*Para o cálculo da matriz de concorrência normalizada foi levado em consideração apenas o número de níveis de cinza existentes na imagem
+* Para o cálculo da matriz de concorrência normalizada foi levado em consideração apenas o número de níveis de cinza existentes na imagem
