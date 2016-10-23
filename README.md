@@ -38,28 +38,28 @@ Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediata
 
 ### Ferramentas utilizadas
 
-*Eclise Mars(https://eclipse.org/mars/)
+* Eclise Mars(https://eclipse.org/mars/)
 
-*Python 2.7 (https://www.python.org/)
+* Python 2.7 (https://www.python.org/)
 
-*OpenCv(http://opencv.org/)
+* OpenCv(http://opencv.org/)
 
 ##Funções implementadas
 
-*Análise da imagem
-	*Reconhecimento do módulo
-	*Extração dos níveis de cinza da imagem
+* Análise da imagem
+	* Reconhecimento do módulo
+	* Extração dos níveis de cinza da imagem
 
-*Matriz de concorrência
-	*Angular Second Moment
-	*Sum Mean
-	*Maximal Probability
+* Matriz de concorrência
+	* Angular Second Moment
+	* Sum Mean
+	* Maximal Probability
 
-*Histograma de intensidade
-	*Mean
-	*Energy
-	*Entropy
-	*Kurtosis
+* Histograma de intensidade
+	* Mean
+	* Energy
+	* Entropy
+	* Kurtosis
 
 ### Considerações finais
 
