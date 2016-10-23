@@ -191,18 +191,3 @@ kurtosisValue = kurtosis(histogram)
 results.writelines("Kurtosis: ")
 results.writelines(str(kurtosisValue))
 results.writelines("\n")
-
-
-
-
-
-
-
-
-
-
-         
-
-    
-
-    
