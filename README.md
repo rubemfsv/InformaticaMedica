@@ -67,15 +67,16 @@ Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediata
 
 Além da implementação em Pythom, foi feita uma análise usando a ferramenta Fiji.
 
-1. Abri o nodulo19.png;
-* File > Open.
-2. Utilizei o plugin Trainable Weka Segmentation; 
-3. Fiz uma marcação da classe 1;
-4. Dei Save Data (formato arff);
+Instruções para se ver os atributos da imagem utilizando o Fiji:
+1. Abri o nodulo19.png (File > Open);
+2. Utilizei o plugin Trainable Weka Segmentation (Plugins > Segmentation > Trainable Weka Segmentation); 
+3. Fiz uma marcação ao redor do nódulo e adicionei à classe 1 (Add to class 1);
+4. Dei Save Data (data.arff);
 5. Fechei o plugin e o abri novamente;
-6. Abri o Weka;
-7. Abri o Explorer do Weka;
-8. Abri o arquivo no formato .arff dentro do explorer do Weka.
+6. Carreguei os dados (Load Data);
+7. Abri o Weka;
+8. Abri o Explorer do Weka;
+9. Abri o arquivo data.arff dentro do explorer do Weka.
 
 ### Considerações finais
 
