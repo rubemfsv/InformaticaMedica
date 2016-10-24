@@ -40,7 +40,7 @@ Para realização efetiva do trabalho prático, fez-se necessária a implementa�
 
 Este trabalho visa a extração de, no mínimo, 3 atributos de nódulos pulmonares. A imagem é de uma tomografia computadorizada, mostra o nódulo de um câncer de pulmão que foi segmentado manualmente (disponível em https://dl.dropboxusercontent.com/u/11507361/noduloSegmentado.tar). Podendo utilizar ferramentas ou códigos livres.
 
-### Ferramentas utilizadas
+### Ferramentas Utilizadas
 
 * Eclise Mars(https://eclipse.org/mars/)
 
@@ -50,7 +50,7 @@ Este trabalho visa a extração de, no mínimo, 3 atributos de nódulos pulmonar
 
 * Fiji (http://fiji.sc)
 
-##Funções implementadas
+##Funções Implementadas em Python
 
 * Análise da imagem
 	* Reconhecimento do módulo
@@ -86,7 +86,7 @@ Instruções para se ver os atributos da imagem utilizando o Fiji:
 ![Imagem 1 - Atributos](http://imageshack.com/a/img923/2341/Nnxwof.png)
 ![Imagem 2 - Atributos](http://imageshack.com/a/img922/2180/gTRKsY.png)
 
-### Considerações finais
+### Considerações Finais
 
 O objetivo do trabalho foi atingido com sucesso, pois foi possível a extração dos atributos necessários de maneira "manual" - utilizando a linguagem python -, e, além disso, com a ferramenta Fiji. Nosso grupo optou pela implementação em python e por o uso da ferramenta já citada anteriormente.</br>
 Ao realizar o cálculo das devidas funções não foram levados em consideração os pixeis de cor preta, e, para o cálculo da matriz de concorrência normalizada, foi levado em consideração apenas o número de níveis de cinza existentes na imagem.</br>
