@@ -79,6 +79,9 @@ Instruções para se ver os atributos da imagem utilizando o Fiji:
 8. Abri o Explorer do Weka;
 9. Abri o arquivo data.arff dentro do explorer do Weka.
 
+![Imagem 1 - Atributos](http://imageshack.com/a/img923/2341/Nnxwof.png)
+![Imagem 2 - Atributos](http://imageshack.com/a/img922/2180/gTRKsY.png)
+
 ### Considerações finais
 
 * Ao realizar o cálculo das devidas funções não foram levados em consideração os pixeis de cor preta
