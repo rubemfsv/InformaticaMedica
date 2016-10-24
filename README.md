@@ -31,13 +31,10 @@ Professor: Marcelo Costa Oliveira</br>
 
 Dentre as doenças de maior grau de complicação e gravidade, o câncer é um problema de saúde que acomete o mundo todo, principalmente em países que estão em fase de desenvolvimento. Um fato preocupante é a quantidade de mortes e novos casos por ano, 70% e 14 milhões, consecutivamente. No Brasil, apesar de não ser a doença que mais mata - ficando atrás de doenças como as cerebrovasculares -, o câncer atinge 15% das mortes no país e 600 mil novos casos anuais.</br>
 Em escala mundial, o câncer de pulmão é o que possui maior incidência, cerca de 1.8 milhão, e é o que mais mata. Cerca de 48% dos estudos indicam que a maior parte das pessoas que desenvolvem a doença são fumantes. Dentre a minoria não-fumante, as principais causas são genéticas ou ambientais, que é o caso da poluição e o tabagismo passivo.  No Brasil, foram estimados 17.330 novos cancêr de pulmão para o ano de 2016.</br>
-Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediatamente investigados via radiografia e tomografia computadorizada, nessa ultima deve haver noções precisas do tamanho, localização e níveis de invasão do tumor. Também é utilizada a histologia, na qual, o diagnóstico final do câncer de pulmão, ainda continua sendo feito por patologistas aplicando inspeção visual de imagens histológicas sob o microscópio.
-
-### Segmentação
-
-Segmentação é o processo de subdivisão da imagem em regiões ou objetos com o objetivo de facilitar sua  análise. O nível de detalhe está relacionado ao problema a ser resolvido e resultado é um conjunto de regiões  ou contornos extraídos da imagem.
-
-A Segmentação Limiar em Tons de Cinza é a mais antiga das técnicas de segmentação, sua aplicação vai desde a área médica até a  área industrial(controle de qualidade).
+Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediatamente investigados via radiografia e tomografia computadorizada, nessa ultima deve haver noções precisas do tamanho, localização e níveis de invasão do tumor. Também é utilizada a histologia, na qual, o diagnóstico final do câncer de pulmão, ainda continua sendo feito por patologistas aplicando inspeção visual de imagens histológicas sob o microscópio.</br>
+Segmentação é o processo de subdivisão da imagem em regiões ou objetos com o objetivo de facilitar sua  análise. O nível de detalhe está relacionado ao problema a ser resolvido e resultado é um conjunto de regiões  ou contornos extraídos da imagem.</br>
+A Segmentação Limiar em Tons de Cinza é a mais antiga das técnicas de segmentação, sua aplicação vai desde a área médica até a  área industrial(controle de qualidade).</br>
+Para realização efetiva do trabalho prático, fez-se necessária a implementação de um algoritmo em python para extrair atributos de um nódulo de um câncer de pulmão - também foi feita a extração através de uma ferramenta já pronta.
 
 ### Objetivo
 
