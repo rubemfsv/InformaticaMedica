@@ -44,6 +44,8 @@ Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediata
 
 * OpenCv(http://opencv.org/)
 
+* Fiji (http://fiji.sc)
+
 ##Funções implementadas
 
 * Análise da imagem
@@ -60,6 +62,20 @@ Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediata
 	* Energy
 	* Entropy
 	* Kurtosis
+
+## Utilizando o Fiji
+
+Além da implementação em Pythom, foi feita uma análise usando a ferramenta Fiji.
+
+1. Abri o nodulo19.png;
+* File > Open.
+2. Utilizei o plugin Trainable Weka Segmentation; 
+3. Fiz uma marcação da classe 1;
+4. Dei Save Data (formato arff);
+5. Fechei o plugin e o abri novamente;
+6. Abri o Weka;
+7. Abri o Explorer do Weka;
+8. Abri o arquivo no formato .arff dentro do explorer do Weka.
 
 ### Considerações finais
 
