@@ -84,8 +84,8 @@ Instruções para se ver os atributos da imagem utilizando o Fiji:
 
 ### Considerações finais
 
-O objetivo do trabalho foi atingido com sucesso, pois foi possível a extração dos atributos de maneira "manual" - utilizando a linguagem python -, e, além disso, com a ferramenta Fiji.
+O objetivo do trabalho foi atingido com sucesso, pois foi possível a extração dos atributos necessários de maneira "manual" - utilizando a linguagem python -, e, além disso, com a ferramenta Fiji.
 
 Ao realizar o cálculo das devidas funções não foram levados em consideração os pixeis de cor preta, e, para o cálculo da matriz de concorrência normalizada, foi levado em consideração apenas o número de níveis de cinza existentes na imagem.
 
-Com o Fiji, obtivemos 80 atributos diferentes, porém não há como ter a certeza da precisão da identificação dos atributos, devido ao número muito elevado.
+Com o Fiji, obtivemos 80 atributos diferentes - quando foi-se analisada da forma descrita no tópico específico - e obtivemos 10 atributos diferentes quando analisada de maneira 3D - essa, por sua vez, foi omitida por não termos trabalhado muito e nem feito muito teste, apenas uma vez para comparar, a precisão durante a ação não foi muito boa por causa do tempo. Mas houve a marcação apenas no nódulo 19, e não em todas as 40 imagens que faziam parte -, para fins comparativos. Não há como ter a certeza da precisão da identificação dos atributos, devido ao número muito elevado, e não foi feito comparações dos resultados da ferramenta com os resultados obtidos de maneira manual.
