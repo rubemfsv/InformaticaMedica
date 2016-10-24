@@ -29,12 +29,15 @@ Professor: Marcelo Oliveira Costa</br>
 
 ### Contextualização
 
-Dentre as doenças de maior grau de complicação e gravidade, o câncer é um problema de saúde que acomete o mundo todo, principalmente em países que estão em fase de desenvolvimento. Um fato preocupante é a quantidade de mortes e novos casos por ano, 70% e 14 milhões, consecutivamente. No Brasil, apesar de não ser a doença que mais mata - ficando atrás de doenças como as cerebrovasculares -, o câncer atinge 15% das mortes no país e 600 mil novos casos anuais.
+Dentre as doenças de maior grau de complicação e gravidade, o câncer é um problema de saúde que acomete o mundo todo, principalmente em países que estão em fase de desenvolvimento. Um fato preocupante é a quantidade de mortes e novos casos por ano, 70% e 14 milhões, consecutivamente. No Brasil, apesar de não ser a doença que mais mat - ficando atrás de doenças como as cerebrovasculares -, o câncer atinge 15% das mortes no país e 600 mil novos casos anuais.
 
 Em escala mundial, o câncer de pulmão é o que possui maior incidência, cerca de 1.8 milhão, e é o que mais mata. Cerca de 48% dos estudos indicam que a maior parte das pessoas que desenvolvem a doença são fumantes. Dentre a minoria não-fumante, as principais causas são genéticas ou ambientais, que é o caso da poluição e o tabagismo passivo).  No Brasil, foram estimados 17.330 novos cancêr de pulmão para o ano de 2016.
 
 Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediatamente investigados via radiografia e tomografia computadorizada, nessa ultima deve haver noções precisas do tamanho, localização e níveis de invasão do tumor.
 
+### Objetivo
+
+Este trabalho visa a extração de, no mínimo, 3 atributos de nódulos pulmonares. A imagem é de uma tomografia computadorizada, mostra o nódulo de um câncer de pulmão que foi segmentado manualmente (disponível em https://dl.dropboxusercontent.com/u/11507361/noduloSegmentado.tar). Podendo utilizar ferramentas ou códigos livres.
 
 ### Ferramentas utilizadas
 
@@ -84,7 +87,7 @@ Instruções para se ver os atributos da imagem utilizando o Fiji:
 
 ### Considerações finais
 
-O objetivo do trabalho foi atingido com sucesso, pois foi possível a extração dos atributos necessários de maneira "manual" - utilizando a linguagem python -, e, além disso, com a ferramenta Fiji.
+O objetivo do trabalho foi atingido com sucesso, pois foi possível a extração dos atributos necessários de maneira "manual" - utilizando a linguagem python -, e, além disso, com a ferramenta Fiji. Nosso grupo optou pela implementação em python e por o uso da ferramenta já citada anteriormente.
 
 Ao realizar o cálculo das devidas funções não foram levados em consideração os pixeis de cor preta, e, para o cálculo da matriz de concorrência normalizada, foi levado em consideração apenas o número de níveis de cinza existentes na imagem.
 
