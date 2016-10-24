@@ -65,7 +65,7 @@ Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediata
 
 ## Utilizando o Fiji
 
-Além da implementação em Pythom, foi feita uma análise usando a ferramenta Fiji.
+Além da implementação em Python, foi feita uma análise usando a ferramenta Fiji.
 
 Instruções para se ver os atributos da imagem utilizando o Fiji:
 
