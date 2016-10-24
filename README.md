@@ -73,7 +73,7 @@ Instruções para se ver os atributos da imagem utilizando o Fiji:
 2. Utilize o plugin Trainable Weka Segmentation (Plugins > Segmentation > Trainable Weka Segmentation); 
 3. Faça uma marcação ao redor do nódulo e adicione à classe 1 (Add to class 1);
 4. Salve em Save Data (data.arff);
-5. Feche o plugin e o abri novamente;
+5. Feche o plugin e o abra novamente;
 6. Carregue os dados (Load Data);
 7. Abra o Weka;
 8. Abra o Explorer do Weka;
