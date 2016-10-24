@@ -68,6 +68,7 @@ Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediata
 Além da implementação em Pythom, foi feita uma análise usando a ferramenta Fiji.
 
 Instruções para se ver os atributos da imagem utilizando o Fiji:
+
 1. Abri o nodulo19.png (File > Open);
 2. Utilizei o plugin Trainable Weka Segmentation (Plugins > Segmentation > Trainable Weka Segmentation); 
 3. Fiz uma marcação ao redor do nódulo e adicionei à classe 1 (Add to class 1);
