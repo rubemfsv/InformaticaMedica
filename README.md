@@ -63,7 +63,7 @@ Os pacientes com sintomas compatíveis com a neoplastia de pulmão são imediata
 	* Entropy
 	* Kurtosis
 
-## Utilizando o Fiji
+### Utilizando o Fiji
 
 Além da implementação em Python, foi feita uma análise usando a ferramenta Fiji.
 
